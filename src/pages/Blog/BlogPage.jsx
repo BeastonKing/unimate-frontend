@@ -40,10 +40,11 @@ const BlogPage = () => {
         "pekerjaan-luar-negeri",
         setPekerjaanLuarNegeriBlogs
       );
+      
       await getBlogsByType("tips-trik", setTipsTrikBlogs);
-      fetch("http://localhost:8080/api/blog/get-top-5");
+      fetch(`${import.meta.env.VITE_UNIMATE_BE_SERVICES}/api/blog/get-top-5`)
       await getBlogsByType("tips-trik", setTipsTrikBlogs);
-      fetch("http://localhost:8080/api/blog/get-top-5")
+      fetch(`${import.meta.env.VITE_UNIMATE_BE_SERVICES}/api/blog/get-top-5`)
         .then((response) => response.json())
         .then((data) => setBannerBlogs(data));
     };
