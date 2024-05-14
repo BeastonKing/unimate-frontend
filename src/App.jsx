@@ -1,4 +1,5 @@
 import "react-image-crop/dist/ReactCrop.css";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import ExaminationResult from "./pages/Examination/ExaminationResult";
 import ExaminationOverview from "./pages/Examination/ExaminationOverview";
