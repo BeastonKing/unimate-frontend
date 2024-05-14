@@ -1,0 +1,13 @@
+/* CSS */
+.barside.active svg path {
+    fill: #ffffff;
+    /* Ubah warna fill menjadi putih ketika NavLink aktif */
+}
+
+.fill-white-hover path {
+    transition: fill 0.3s;
+}
+
+.fill-white-hover:hover path {
+    fill: white;
+}

@@ -1,0 +1,100 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-r1:first-child {
+    margin-right: 20px;
+    padding-right: 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rectangle1 {
+    width: 2px;
+    height: 56px;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.rectangle2 {
+    width: 2px;
+    height: 100%;
+    background-color: grey;
+    margin-right: 20px;
+}
+
+.column1 {
+    margin-right: 10px;
+}
+
+.column1 h2, .column1 h3 {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.rounded-rectangle {
+    width: auto;
+    height: 28px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.sc-type {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.column3 {
+    flex: 1; /* Allow column3 to grow and shrink */
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.row1 {
+    display: flex;
+}
+
+.row2 h2, .row3 h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    word-wrap: break-word;
+}
+
+.button {
+    margin-top: 20px;
+    border-radius: 50px;
+    height: 35px;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
+}
