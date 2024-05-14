@@ -5,6 +5,7 @@ import ScholarshipTag from "./ScholarshipTag";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt, faCalendar } from "@fortawesome/free-solid-svg-icons";
 
+
 export default function ScholarshipCard({
   id,
   title,
