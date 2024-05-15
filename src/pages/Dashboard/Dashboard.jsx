@@ -1,3 +1,4 @@
+import React from "react";
 import dashboard from "../../assets/image/Group 286.png";
 import document from "../../assets/image/Frame 304.svg";
 import nullenrol from "../../assets/image/Null Enroll.png";
